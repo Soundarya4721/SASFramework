@@ -1,0 +1,35 @@
+Found 5 accessibility violations:
+1) Heading levels should only increase by one: https://dequeuniversity.com/rules/axe/3.1/heading-order?application=axeAPI
+  a) ["h3"]
+    Fix any of the following:
+      Heading order invalid
+
+
+2) <html> element must have a lang attribute: https://dequeuniversity.com/rules/axe/3.1/html-has-lang?application=axeAPI
+  a) ["html"]
+    Fix any of the following:
+      The <html> element does not have a lang attribute
+
+
+3) Form elements should have a visible label: https://dequeuniversity.com/rules/axe/3.1/label-title-only?application=axeAPI
+  a) ["#username"]
+    Fix all of the following:
+      Only title used to generate label for form element
+
+
+  b) ["#password"]
+    Fix all of the following:
+      Only title used to generate label for form element
+
+
+4) Page must have one main landmark: https://dequeuniversity.com/rules/axe/3.1/landmark-one-main?application=axeAPI
+  a) ["html"]
+    Fix all of the following:
+      Page does not have a main landmark
+
+
+5) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI
+  a) ["html"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+

@@ -1,0 +1,525 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:i18n="http://www.w3.org/2005/09/ws-i18n" xmlns:typ="http://oracle.com/determinations/server/10.4/Assets/assess/types">
+   <SOAP-ENV:Header>
+      <i18n:international>
+         <i18n:locale>en_US</i18n:locale>
+         <i18n:tz>GMT-0500</i18n:tz>
+      </i18n:international>
+   </SOAP-ENV:Header>
+   <SOAP-ENV:Body>
+      <typ:assess-response>
+         <typ:global-instance>
+            <typ:casemode type="text">
+               <typ:text-val>IR</typ:text-val>
+            </typ:casemode>
+            <typ:refuseToProvideAssetInfo type="boolean">
+               <typ:boolean-val>false</typ:boolean-val>
+            </typ:refuseToProvideAssetInfo>
+            <typ:edbcRunDt type="date">
+               <typ:date-val>2019-12-25</typ:date-val>
+            </typ:edbcRunDt>
+            <typ:list-Individual inferred="false">
+               <typ:Individual id="1">
+                  <typ:Rsc40 type="boolean" inferred="true">
+                     <typ:boolean-val>false</typ:boolean-val>
+                  </typ:Rsc40>
+                  <typ:alreadyRecvME type="boolean">
+                     <typ:boolean-val>false</typ:boolean-val>
+                  </typ:alreadyRecvME>
+                  <typ:laTypeCd type="text">
+                     <typ:text-val>HO</typ:text-val>
+                  </typ:laTypeCd>
+                  <typ:ltcEnteredDt type="date">
+                     <typ:date-val>9990-12-31</typ:date-val>
+                  </typ:ltcEnteredDt>
+                  <typ:individualId type="number">
+                     <typ:number-val>1001129512.0</typ:number-val>
+                  </typ:individualId>
+                  <typ:PACEApprovalDt type="date">
+                     <typ:date-val>2019-12-11</typ:date-val>
+                  </typ:PACEApprovalDt>
+                  <typ:ongoingEdgAssetTransfrBaseLineDt type="date">
+                     <typ:date-val>9990-12-31</typ:date-val>
+                  </typ:ongoingEdgAssetTransfrBaseLineDt>
+                  <typ:ongoingPenaltyBeginDt type="date">
+                     <typ:date-val>9990-12-31</typ:date-val>
+                  </typ:ongoingPenaltyBeginDt>
+                  <typ:ongoingPenaltyEndDt type="date">
+                     <typ:date-val>9990-12-31</typ:date-val>
+                  </typ:ongoingPenaltyEndDt>
+                  <typ:spousal_share_rsc_amt type="currency">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:spousal_share_rsc_amt>
+                  <typ:locAssessmentCd type="text">
+                     <typ:text-val/>
+                  </typ:locAssessmentCd>
+                  <typ:ongoingPenDisCntblAmt type="currency">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:ongoingPenDisCntblAmt>
+                  <typ:list-relationship inferred="false">
+                     <typ:relationship id="2">
+                        <typ:refIndvId type="number">
+                           <typ:number-val>1001131911.0</typ:number-val>
+                        </typ:refIndvId>
+                        <typ:relationShipCd type="text">
+                           <typ:text-val>PA</typ:text-val>
+                        </typ:relationShipCd>
+                     </typ:relationship>
+                     <typ:relationship id="3">
+                        <typ:refIndvId type="number">
+                           <typ:number-val>1001131912.0</typ:number-val>
+                        </typ:refIndvId>
+                        <typ:relationShipCd type="text">
+                           <typ:text-val>PA</typ:text-val>
+                        </typ:relationShipCd>
+                     </typ:relationship>
+                  </typ:list-relationship>
+                  <typ:list-resource inferred="false"></typ:list-resource>
+                  <typ:list-otherInStatebenefittype inferred="false"></typ:list-otherInStatebenefittype>
+               </typ:Individual>
+               <typ:Individual id="4">
+                  <typ:Rsc40 type="boolean" inferred="true">
+                     <typ:boolean-val>false</typ:boolean-val>
+                  </typ:Rsc40>
+                  <typ:alreadyRecvME type="boolean">
+                     <typ:boolean-val>false</typ:boolean-val>
+                  </typ:alreadyRecvME>
+                  <typ:laTypeCd type="text">
+                     <typ:text-val>HO</typ:text-val>
+                  </typ:laTypeCd>
+                  <typ:ltcEnteredDt type="date">
+                     <typ:date-val>9990-12-31</typ:date-val>
+                  </typ:ltcEnteredDt>
+                  <typ:individualId type="number">
+                     <typ:number-val>1001131911.0</typ:number-val>
+                  </typ:individualId>
+                  <typ:PACEApprovalDt type="date">
+                     <typ:date-val>2019-12-11</typ:date-val>
+                  </typ:PACEApprovalDt>
+                  <typ:ongoingEdgAssetTransfrBaseLineDt type="date">
+                     <typ:date-val>9990-12-31</typ:date-val>
+                  </typ:ongoingEdgAssetTransfrBaseLineDt>
+                  <typ:ongoingPenaltyBeginDt type="date">
+                     <typ:date-val>9990-12-31</typ:date-val>
+                  </typ:ongoingPenaltyBeginDt>
+                  <typ:ongoingPenaltyEndDt type="date">
+                     <typ:date-val>9990-12-31</typ:date-val>
+                  </typ:ongoingPenaltyEndDt>
+                  <typ:spousal_share_rsc_amt type="currency">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:spousal_share_rsc_amt>
+                  <typ:locAssessmentCd type="text">
+                     <typ:text-val/>
+                  </typ:locAssessmentCd>
+                  <typ:ongoingPenDisCntblAmt type="currency">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:ongoingPenDisCntblAmt>
+                  <typ:list-relationship inferred="false">
+                     <typ:relationship id="5">
+                        <typ:refIndvId type="number">
+                           <typ:number-val>1001129512.0</typ:number-val>
+                        </typ:refIndvId>
+                        <typ:relationShipCd type="text">
+                           <typ:text-val>CH</typ:text-val>
+                        </typ:relationShipCd>
+                     </typ:relationship>
+                     <typ:relationship id="6">
+                        <typ:refIndvId type="number">
+                           <typ:number-val>1001131912.0</typ:number-val>
+                        </typ:refIndvId>
+                        <typ:relationShipCd type="text">
+                           <typ:text-val>SB</typ:text-val>
+                        </typ:relationShipCd>
+                     </typ:relationship>
+                  </typ:list-relationship>
+                  <typ:list-resource inferred="false"></typ:list-resource>
+                  <typ:list-otherInStatebenefittype inferred="false"></typ:list-otherInStatebenefittype>
+               </typ:Individual>
+               <typ:Individual id="7">
+                  <typ:Rsc40 type="boolean" inferred="true">
+                     <typ:boolean-val>false</typ:boolean-val>
+                  </typ:Rsc40>
+                  <typ:alreadyRecvME type="boolean">
+                     <typ:boolean-val>false</typ:boolean-val>
+                  </typ:alreadyRecvME>
+                  <typ:laTypeCd type="text">
+                     <typ:text-val>HO</typ:text-val>
+                  </typ:laTypeCd>
+                  <typ:ltcEnteredDt type="date">
+                     <typ:date-val>9990-12-31</typ:date-val>
+                  </typ:ltcEnteredDt>
+                  <typ:individualId type="number">
+                     <typ:number-val>1001131912.0</typ:number-val>
+                  </typ:individualId>
+                  <typ:PACEApprovalDt type="date">
+                     <typ:date-val>2019-12-11</typ:date-val>
+                  </typ:PACEApprovalDt>
+                  <typ:ongoingEdgAssetTransfrBaseLineDt type="date">
+                     <typ:date-val>9990-12-31</typ:date-val>
+                  </typ:ongoingEdgAssetTransfrBaseLineDt>
+                  <typ:ongoingPenaltyBeginDt type="date">
+                     <typ:date-val>9990-12-31</typ:date-val>
+                  </typ:ongoingPenaltyBeginDt>
+                  <typ:ongoingPenaltyEndDt type="date">
+                     <typ:date-val>9990-12-31</typ:date-val>
+                  </typ:ongoingPenaltyEndDt>
+                  <typ:spousal_share_rsc_amt type="currency">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:spousal_share_rsc_amt>
+                  <typ:locAssessmentCd type="text">
+                     <typ:text-val/>
+                  </typ:locAssessmentCd>
+                  <typ:ongoingPenDisCntblAmt type="currency">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:ongoingPenDisCntblAmt>
+                  <typ:list-relationship inferred="false">
+                     <typ:relationship id="8">
+                        <typ:refIndvId type="number">
+                           <typ:number-val>1001129512.0</typ:number-val>
+                        </typ:refIndvId>
+                        <typ:relationShipCd type="text">
+                           <typ:text-val>CH</typ:text-val>
+                        </typ:relationShipCd>
+                     </typ:relationship>
+                     <typ:relationship id="9">
+                        <typ:refIndvId type="number">
+                           <typ:number-val>1001131911.0</typ:number-val>
+                        </typ:refIndvId>
+                        <typ:relationShipCd type="text">
+                           <typ:text-val>SB</typ:text-val>
+                        </typ:relationShipCd>
+                     </typ:relationship>
+                  </typ:list-relationship>
+                  <typ:list-resource inferred="false"></typ:list-resource>
+                  <typ:list-otherInStatebenefittype inferred="false"></typ:list-otherInStatebenefittype>
+               </typ:Individual>
+            </typ:list-Individual>
+            <typ:list-edg_group inferred="false">
+               <typ:edg_group id="10">
+                  <typ:resTrfSw type="boolean" inferred="true">
+                     <typ:boolean-val>false</typ:boolean-val>
+                  </typ:resTrfSw>
+                  <typ:rscTestRsltCd type="text" inferred="true">
+                     <typ:text-val>PS</typ:text-val>
+                  </typ:rscTestRsltCd>
+                  <typ:edgDeemedVehRscAmt type="currency" inferred="true">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:edgDeemedVehRscAmt>
+                  <typ:edgDeemedCntblRscAmt type="currency" inferred="true">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:edgDeemedCntblRscAmt>
+                  <typ:edgInEligibleEndDate type="date" inferred="true">
+                     <typ:date-val>9990-12-31</typ:date-val>
+                  </typ:edgInEligibleEndDate>
+                  <typ:edgrealPropRscAmt type="currency" inferred="true">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:edgrealPropRscAmt>
+                  <typ:cumulativeVehicleAmt type="currency" inferred="true">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:cumulativeVehicleAmt>
+                  <typ:edgAssetTransfrBaseLineDt type="date" inferred="true">
+                     <typ:date-val>9990-12-31</typ:date-val>
+                  </typ:edgAssetTransfrBaseLineDt>
+                  <typ:penaltyMonthsFloat type="number" inferred="true">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:penaltyMonthsFloat>
+                  <typ:maintainOrExtendPenalty type="boolean" inferred="true">
+                     <typ:boolean-val>false</typ:boolean-val>
+                  </typ:maintainOrExtendPenalty>
+                  <typ:noticeReason type="text" inferred="true">
+                     <typ:text-val>,,,,,,</typ:text-val>
+                  </typ:noticeReason>
+                  <typ:edgtrustRscAmt type="currency" inferred="true">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:edgtrustRscAmt>
+                  <typ:edglumpSumRscAmt type="currency" inferred="true">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:edglumpSumRscAmt>
+                  <typ:edgtotalcntRscAmt type="currency" inferred="true">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:edgtotalcntRscAmt>
+                  <typ:edgDeemedNonLiqRscAmt type="currency" inferred="true">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:edgDeemedNonLiqRscAmt>
+                  <typ:edgDeemedTrustRscAmt type="currency" inferred="true">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:edgDeemedTrustRscAmt>
+                  <typ:trustPendFlag type="boolean" inferred="true">
+                     <typ:uncertain-val/>
+                  </typ:trustPendFlag>
+                  <typ:edgBurialRscAmt type="currency" inferred="true">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:edgBurialRscAmt>
+                  <typ:edgDeemedRealPropRscAmt type="currency" inferred="true">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:edgDeemedRealPropRscAmt>
+                  <typ:edgvehRscAmt type="currency" inferred="true">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:edgvehRscAmt>
+                  <typ:edgDeemedLifeInsRscAmt type="currency" inferred="true">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:edgDeemedLifeInsRscAmt>
+                  <typ:edgExcessRscAmt type="currency" inferred="true">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:edgExcessRscAmt>
+                  <typ:edgLifeInsRscAmt type="currency" inferred="true">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:edgLifeInsRscAmt>
+                  <typ:edgInEligibleBeginDate type="date" inferred="true">
+                     <typ:date-val>9990-12-31</typ:date-val>
+                  </typ:edgInEligibleBeginDate>
+                  <typ:edgDeemedBurialRscAmt type="currency" inferred="true">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:edgDeemedBurialRscAmt>
+                  <typ:edgDivestmentAmount type="currency" inferred="true">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:edgDivestmentAmount>
+                  <typ:edgliqRscAmt type="currency" inferred="true">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:edgliqRscAmt>
+                  <typ:program_spra_amt type="currency" inferred="true">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:program_spra_amt>
+                  <typ:edgDeemedLiqRscAmt type="currency" inferred="true">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:edgDeemedLiqRscAmt>
+                  <typ:totDeemedRscAmt type="currency" inferred="true">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:totDeemedRscAmt>
+                  <typ:edgtotalcntRscAmtBeforeDeeming type="currency" inferred="true">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:edgtotalcntRscAmtBeforeDeeming>
+                  <typ:rscLimitAmt type="currency" inferred="true">
+                     <typ:number-val>3500.0</typ:number-val>
+                  </typ:rscLimitAmt>
+                  <typ:program_exp_iia type="currency" inferred="true">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:program_exp_iia>
+                  <typ:typeOfAssistance type="text">
+                     <typ:text-val>TP09</typ:text-val>
+                  </typ:typeOfAssistance>
+                  <typ:programCd type="text">
+                     <typ:text-val>FS</typ:text-val>
+                  </typ:programCd>
+                  <typ:resourceTestRequired type="boolean">
+                     <typ:boolean-val>false</typ:boolean-val>
+                  </typ:resourceTestRequired>
+                  <typ:edm type="date">
+                     <typ:date-val>2020-01-01</typ:date-val>
+                  </typ:edm>
+                  <typ:resEligProcessMonth type="boolean">
+                     <typ:boolean-val>false</typ:boolean-val>
+                  </typ:resEligProcessMonth>
+                  <typ:activityType type="text">
+                     <typ:text-val>IR</typ:text-val>
+                  </typ:activityType>
+                  <typ:resourceTestedSw type="boolean">
+                     <typ:boolean-val>false</typ:boolean-val>
+                  </typ:resourceTestedSw>
+                  <typ:paymentEndDt type="date">
+                     <typ:date-val>2020-01-31</typ:date-val>
+                  </typ:paymentEndDt>
+                  <typ:ltcBudgetCd type="text">
+                     <typ:text-val/>
+                  </typ:ltcBudgetCd>
+                  <typ:edgApplicationDate type="date">
+                     <typ:date-val>2018-06-01</typ:date-val>
+                  </typ:edgApplicationDate>
+                  <typ:edbcrundt type="date">
+                     <typ:date-val>2019-12-25</typ:date-val>
+                  </typ:edbcrundt>
+                  <typ:progReqAppDt type="date">
+                     <typ:date-val>2018-06-01</typ:date-val>
+                  </typ:progReqAppDt>
+                  <typ:priorMedicaidCd type="text">
+                     <typ:text-val>p0</typ:text-val>
+                  </typ:priorMedicaidCd>
+                  <typ:eligibilityEndDt type="date">
+                     <typ:date-val>9990-12-31</typ:date-val>
+                  </typ:eligibilityEndDt>
+                  <typ:adversactionsw type="boolean">
+                     <typ:boolean-val>false</typ:boolean-val>
+                  </typ:adversactionsw>
+                  <typ:paymentBegDt type="date">
+                     <typ:date-val>2020-01-01</typ:date-val>
+                  </typ:paymentBegDt>
+                  <typ:penalizedAmt type="currency">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:penalizedAmt>
+                  <typ:penalizedAmtTillEligRun type="currency">
+                     <typ:number-val>0.0</typ:number-val>
+                  </typ:penalizedAmtTillEligRun>
+                  <typ:ltssadversactionsw type="boolean">
+                     <typ:boolean-val>true</typ:boolean-val>
+                  </typ:ltssadversactionsw>
+                  <typ:list-edg_individual inferred="false">
+                     <typ:edg_individual id="11">
+                        <typ:improperTransferFoundSw type="boolean" inferred="true">
+                           <typ:boolean-val>false</typ:boolean-val>
+                        </typ:improperTransferFoundSw>
+                        <typ:ageinmonths type="number">
+                           <typ:number-val>431.0</typ:number-val>
+                        </typ:ageinmonths>
+                        <typ:considerResourceSw type="boolean">
+                           <typ:boolean-val>true</typ:boolean-val>
+                        </typ:considerResourceSw>
+                        <typ:IndivIdNum type="number">
+                           <typ:number-val>1001129512.0</typ:number-val>
+                        </typ:IndivIdNum>
+                        <typ:indvid_edg_Individual type="number">
+                           <typ:number-val>1001129512.0</typ:number-val>
+                        </typ:indvid_edg_Individual>
+                        <typ:indvLHSw type="boolean">
+                           <typ:boolean-val>false</typ:boolean-val>
+                        </typ:indvLHSw>
+                        <typ:partStatusCd type="text">
+                           <typ:text-val>EA</typ:text-val>
+                        </typ:partStatusCd>
+                        <typ:in_text_programMember_programMember type="text">
+                           <typ:text-val/>
+                        </typ:in_text_programMember_programMember>
+                        <typ:homeCommunityServiceSw type="boolean">
+                           <typ:boolean-val>false</typ:boolean-val>
+                        </typ:homeCommunityServiceSw>
+                        <typ:disabledsw type="boolean">
+                           <typ:boolean-val>true</typ:boolean-val>
+                        </typ:disabledsw>
+                        <typ:receivingSSI type="boolean">
+                           <typ:boolean-val>false</typ:boolean-val>
+                        </typ:receivingSSI>
+                        <typ:indvHCBSSw type="boolean">
+                           <typ:boolean-val>false</typ:boolean-val>
+                        </typ:indvHCBSSw>
+                        <typ:in_programMember_text_medicaidInclusionReasonCode type="text">
+                           <typ:text-val/>
+                        </typ:in_programMember_text_medicaidInclusionReasonCode>
+                        <typ:receivingFIP type="boolean">
+                           <typ:boolean-val>true</typ:boolean-val>
+                        </typ:receivingFIP>
+                        <typ:receivingSDA type="boolean">
+                           <typ:boolean-val>false</typ:boolean-val>
+                        </typ:receivingSDA>
+                        <typ:groupInd type="text">
+                           <typ:text-val>C</typ:text-val>
+                        </typ:groupInd>
+                        <typ:indvPACEsw type="boolean">
+                           <typ:boolean-val>false</typ:boolean-val>
+                        </typ:indvPACEsw>
+                        <typ:list-indvPraDetail inferred="false"></typ:list-indvPraDetail>
+                     </typ:edg_individual>
+                     <typ:edg_individual id="12">
+                        <typ:improperTransferFoundSw type="boolean" inferred="true">
+                           <typ:boolean-val>false</typ:boolean-val>
+                        </typ:improperTransferFoundSw>
+                        <typ:ageinmonths type="number">
+                           <typ:number-val>162.0</typ:number-val>
+                        </typ:ageinmonths>
+                        <typ:considerResourceSw type="boolean">
+                           <typ:boolean-val>true</typ:boolean-val>
+                        </typ:considerResourceSw>
+                        <typ:IndivIdNum type="number">
+                           <typ:number-val>1001131911.0</typ:number-val>
+                        </typ:IndivIdNum>
+                        <typ:indvid_edg_Individual type="number">
+                           <typ:number-val>1001131911.0</typ:number-val>
+                        </typ:indvid_edg_Individual>
+                        <typ:indvLHSw type="boolean">
+                           <typ:boolean-val>false</typ:boolean-val>
+                        </typ:indvLHSw>
+                        <typ:partStatusCd type="text">
+                           <typ:text-val>EC</typ:text-val>
+                        </typ:partStatusCd>
+                        <typ:in_text_programMember_programMember type="text">
+                           <typ:text-val/>
+                        </typ:in_text_programMember_programMember>
+                        <typ:homeCommunityServiceSw type="boolean">
+                           <typ:boolean-val>false</typ:boolean-val>
+                        </typ:homeCommunityServiceSw>
+                        <typ:disabledsw type="boolean">
+                           <typ:boolean-val>true</typ:boolean-val>
+                        </typ:disabledsw>
+                        <typ:receivingSSI type="boolean">
+                           <typ:boolean-val>false</typ:boolean-val>
+                        </typ:receivingSSI>
+                        <typ:indvHCBSSw type="boolean">
+                           <typ:boolean-val>false</typ:boolean-val>
+                        </typ:indvHCBSSw>
+                        <typ:in_programMember_text_medicaidInclusionReasonCode type="text">
+                           <typ:text-val/>
+                        </typ:in_programMember_text_medicaidInclusionReasonCode>
+                        <typ:receivingFIP type="boolean">
+                           <typ:boolean-val>true</typ:boolean-val>
+                        </typ:receivingFIP>
+                        <typ:receivingSDA type="boolean">
+                           <typ:boolean-val>false</typ:boolean-val>
+                        </typ:receivingSDA>
+                        <typ:groupInd type="text">
+                           <typ:text-val>C</typ:text-val>
+                        </typ:groupInd>
+                        <typ:indvPACEsw type="boolean">
+                           <typ:boolean-val>false</typ:boolean-val>
+                        </typ:indvPACEsw>
+                        <typ:list-indvPraDetail inferred="false"></typ:list-indvPraDetail>
+                     </typ:edg_individual>
+                     <typ:edg_individual id="13">
+                        <typ:improperTransferFoundSw type="boolean" inferred="true">
+                           <typ:boolean-val>false</typ:boolean-val>
+                        </typ:improperTransferFoundSw>
+                        <typ:ageinmonths type="number">
+                           <typ:number-val>119.0</typ:number-val>
+                        </typ:ageinmonths>
+                        <typ:considerResourceSw type="boolean">
+                           <typ:boolean-val>true</typ:boolean-val>
+                        </typ:considerResourceSw>
+                        <typ:IndivIdNum type="number">
+                           <typ:number-val>1001131912.0</typ:number-val>
+                        </typ:IndivIdNum>
+                        <typ:indvid_edg_Individual type="number">
+                           <typ:number-val>1001131912.0</typ:number-val>
+                        </typ:indvid_edg_Individual>
+                        <typ:indvLHSw type="boolean">
+                           <typ:boolean-val>false</typ:boolean-val>
+                        </typ:indvLHSw>
+                        <typ:partStatusCd type="text">
+                           <typ:text-val>EC</typ:text-val>
+                        </typ:partStatusCd>
+                        <typ:in_text_programMember_programMember type="text">
+                           <typ:text-val/>
+                        </typ:in_text_programMember_programMember>
+                        <typ:homeCommunityServiceSw type="boolean">
+                           <typ:boolean-val>false</typ:boolean-val>
+                        </typ:homeCommunityServiceSw>
+                        <typ:disabledsw type="boolean">
+                           <typ:boolean-val>false</typ:boolean-val>
+                        </typ:disabledsw>
+                        <typ:receivingSSI type="boolean">
+                           <typ:boolean-val>false</typ:boolean-val>
+                        </typ:receivingSSI>
+                        <typ:indvHCBSSw type="boolean">
+                           <typ:boolean-val>false</typ:boolean-val>
+                        </typ:indvHCBSSw>
+                        <typ:in_programMember_text_medicaidInclusionReasonCode type="text">
+                           <typ:text-val/>
+                        </typ:in_programMember_text_medicaidInclusionReasonCode>
+                        <typ:receivingFIP type="boolean">
+                           <typ:boolean-val>true</typ:boolean-val>
+                        </typ:receivingFIP>
+                        <typ:receivingSDA type="boolean">
+                           <typ:boolean-val>false</typ:boolean-val>
+                        </typ:receivingSDA>
+                        <typ:groupInd type="text">
+                           <typ:text-val>C</typ:text-val>
+                        </typ:groupInd>
+                        <typ:indvPACEsw type="boolean">
+                           <typ:boolean-val>false</typ:boolean-val>
+                        </typ:indvPACEsw>
+                        <typ:list-indvPraDetail inferred="false"></typ:list-indvPraDetail>
+                     </typ:edg_individual>
+                  </typ:list-edg_individual>
+                  <typ:list-EdIndvLocEligibility inferred="true"></typ:list-EdIndvLocEligibility>
+                  <typ:list-RSCIndvltcpendreason inferred="false"></typ:list-RSCIndvltcpendreason>
+               </typ:edg_group>
+            </typ:list-edg_group>
+         </typ:global-instance>
+      </typ:assess-response>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

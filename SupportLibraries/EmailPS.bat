@@ -1,0 +1,2 @@
+%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\powershell.exe  -executionpolicy remotesigned -File  C:\AutomationStableBuilds\CombinedProgramsFlow\CustomizedCode\Automation_FrameWork_Test\SupportLibraries\email.ps1 -filePath  "C:\Output_Results_Parallel\UATWT\Execution_Summary.htm" -attachmentPath  "C:\Output_Results_Parallel\UATWT\Run_02-01-2019_06-16-38PM.zip"
+exit

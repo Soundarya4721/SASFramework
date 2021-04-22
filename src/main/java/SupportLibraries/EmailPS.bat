@@ -1,0 +1,2 @@
+%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\powershell.exe  -executionpolicy remotesigned -File  C:\Users\spgunupudi\Documents\Testing\Parallel_Workspace\Automation_Framework\SupportLibraries\email.ps1 -filePath  "C:\Output_Results_Parallel\SITM\Execution_Summary.htm" -attachmentPath  "C:\Output_Results_Parallel\SITM\Run_06-18-2017_12-07-57PM.zip"
+pause

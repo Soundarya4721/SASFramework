@@ -1,0 +1,8 @@
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+   <S:Body>
+      <ns2:DSCommonResponseObject version="P2.1.0.0.02" xmlns:ns2="http://service.datasynchronization.uhip.eohhs.ri.us/">
+         <responseStatus>FAILURE</responseStatus>
+         <errorDescription>Manual ID Proofing is not available for a human services only application/account.</errorDescription>
+      </ns2:DSCommonResponseObject>
+   </S:Body>
+</S:Envelope>
